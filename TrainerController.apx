@@ -2,7 +2,7 @@ public with sharing class TrainerController {
     @AuraEnabled(cacheable = true)
     public static List<Trainer__c> getTrainerListHandler(){
         try{
-            system.debug("Inside controller");// initial update from VS Code
+            system.debug("Inside Trainer controller");// Second update from VS Code with future branch
             return [SELECT 
                     Name,Email__c,Last_Name__c,Phone_Number__c,Photo__c,Specialities__c,Certifications__c, Availability_Schedule__c 
                     FROM Trainer__c

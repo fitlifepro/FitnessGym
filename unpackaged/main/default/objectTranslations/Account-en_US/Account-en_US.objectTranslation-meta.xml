@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Member</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Members</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <recordTypes>
+        <label><!-- Member --></label>
+        <name>Member</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Minimum age is 18 --></errorMessage>
+        <name>Age_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter valid phone number --></errorMessage>
+        <name>Phone_number_validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+</CustomObjectTranslation>
